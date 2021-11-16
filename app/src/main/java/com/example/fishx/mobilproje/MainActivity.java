@@ -62,8 +62,7 @@ public class MainActivity extends AppCompatActivity {
     public void listele(){
         reminderList = findViewById(R.id.liste);
 
-       // db.contentAdd(new listAdapter("xddddd amllll sadgasdas sadfasdgasdjn sagjsadgkjasd dsags","2019","3","12","15","34","0"));
-       // db.contentAdd(new listAdapter("xddddd amllll","2018","3","12","15","34","0"));
+       
 
         list = db.getContents();
 
